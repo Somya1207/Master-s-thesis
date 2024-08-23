@@ -1,0 +1,1043 @@
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [__init__.py:163:init] args.rank = 0, args.worker_num = 10
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [ml_engine_adapter.py:147:get_torch_device] args = <fedml.arguments.Arguments object at 0x7f16fa2c50d0>, using_gpu = True, device_id = 1, device_type = gpu
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [device.py:48:get_device] device = cuda:1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [data_loader.py:259:load_synthetic_data] load_data. dataset_name = zoo
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:116:info] test
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:116:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   x:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   z:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x2
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   y:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   g:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   w:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:116:info] train
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:116:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   x:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]       min: -6.13
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info] , max: 5.79
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   z:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x2
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]       min: -3.00
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info] , max: 3.00
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   y:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]       min: -4.02
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info] , max: 3.69
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   g:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]       min: -0.31
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info] , max: 0.32
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   w:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]       min: -6.13
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info] , max: 5.79
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:116:info] dev
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:116:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   x:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   z:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x2
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   y:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   g:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]   w:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:38] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:41] [INFO] [model_hub.py:23:create] create_model. model_name = lr, output_dim = None
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:41] [INFO] [fedavg_api.py:58:__init__] model = [[MLPModel(
+  (model): Sequential(
+    (0): Linear(in_features=1, out_features=20, bias=True)
+    (1): LeakyReLU(negative_slope=0.01)
+    (2): Linear(in_features=20, out_features=3, bias=True)
+    (3): LeakyReLU(negative_slope=0.01)
+    (4): Linear(in_features=3, out_features=1, bias=True)
+  )
+)], [MLPModel(
+  (model): Sequential(
+    (0): Linear(in_features=2, out_features=20, bias=True)
+    (1): LeakyReLU(negative_slope=0.01)
+    (2): Linear(in_features=20, out_features=1, bias=True)
+  )
+)], [MLPModel(
+  (model): Sequential(
+    (0): Linear(in_features=1, out_features=20, bias=True)
+    (1): LeakyReLU(negative_slope=0.01)
+    (2): Linear(in_features=20, out_features=3, bias=True)
+    (3): LeakyReLU(negative_slope=0.01)
+    (4): Linear(in_features=3, out_features=1, bias=True)
+  )
+)]]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:41] [INFO] [model_selection_class.py:38:do_model_selection] starting learning args eval 0
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:26:41] [INFO] [model_selection_class.py:38:do_model_selection]
+/home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/optimizers/oadam.py:94: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at /opt/conda/conda-bld/pytorch_1704987615470/work/torch/csrc/utils/python_arg_parser.cpp:1630.)
+  exp_avg.mul_(beta1).add_(1 - beta1, grad)
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection] learning eval:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection] -0.0002747635686199607
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection] OptimalObjective::lambda_1=0.250000
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection] OAdam:::'lr'=0.0005:'betas'=(0.5, 0.9)
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection] OAdam:::'lr'=0.0025:'betas'=(0.5, 0.9)
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:82:do_model_selection] size of f_z collection:
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:82:do_model_selection]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:82:do_model_selection] 200
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [model_selection_class.py:82:do_model_selection]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [fedavg_api.py:122:_setup_clients] ############setup_clients (START)#############
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [fedavg_api.py:134:_setup_clients] ############setup_clients (END)#############
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [fedavg_api.py:137:train] self.model_trainer = <fedml.ml.trainer.my_model_trainer_classification.ModelTrainerCLS object at 0x7f15e2f7c710>
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [fedavg_api.py:147:train] ################Communication round : 0
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 1.052520
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 1.046031
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.206372
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.199899
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 1.021579
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 1.014776
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 1.058220
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 1.051751
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.223228
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.213885
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.230208
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.222737
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 1.035708
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 1.029300
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.206234
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.197448
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.116493
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.108714
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.074325
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.067601
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [fedavg_api.py:223:train] iteration 0, dev-MSE=0.081400, train-loss=0.093197, dev-loss=0.058214, mean-recent-eval=-0.020647
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [fedavg_api.py:223:train]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [fedavg_api.py:147:train] ################Communication round : 1
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 1.027390
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 1.022116
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.180198
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.174800
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.996125
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.990775
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 1.033877
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 1.029086
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.188966
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.181284
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.202565
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.196891
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 1.011014
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 1.005799
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.173618
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.166517
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.087713
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.081805
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.048944
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.043496
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [fedavg_api.py:147:train] ################Communication round : 2
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 1.007100
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 1.003326
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.158988
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.155123
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.976629
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.972810
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 1.016491
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 1.013592
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.162038
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.156563
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.182441
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.178985
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.991483
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.987509
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.147665
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.142748
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.065858
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.061542
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.029059
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.025224
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [fedavg_api.py:147:train] ################Communication round : 3
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.992865
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.990170
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.144136
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.141594
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.963840
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.961758
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 1.005666
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 1.003930
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.143186
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.139534
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.170430
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.168452
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.977267
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.974626
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.130285
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.127488
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.050624
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.047608
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.015115
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.012402
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [fedavg_api.py:147:train] ################Communication round : 4
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.982753
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.980694
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.134406
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.132622
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.956468
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.954957
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.998827
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.997703
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.130508
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.127797
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.163400
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.162190
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.967747
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.965815
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.119778
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.117804
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.040322
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.038196
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.005228
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 1.003223
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [fedavg_api.py:147:train] ################Communication round : 5
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.974980
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.973320
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.127413
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.125961
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.950954
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.949740
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.994143
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.993272
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.120841
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.118557
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.158969
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.158049
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.960867
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.959300
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.112094
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.110587
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.032970
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.031219
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.997762
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.996112
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [fedavg_api.py:147:train] ################Communication round : 6
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.968619
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.967173
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.121655
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.120442
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.946517
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.945519
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.990364
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.989637
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.112624
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.110619
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.155550
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.154830
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.955165
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.953809
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.105967
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.104729
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.026848
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.025328
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.991518
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.990114
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [fedavg_api.py:147:train] ################Communication round : 7
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.963079
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.961807
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.116780
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.115724
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.942931
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.942125
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.987193
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.986580
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.105438
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.103662
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.152905
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.152387
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.950258
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.949078
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.100827
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.099777
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.021607
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.020297
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.986218
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.985022
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [fedavg_api.py:147:train] ################Communication round : 8
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:33] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.958207
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.957077
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.112529
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.111602
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.940037
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.939347
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.984505
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.983983
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.099095
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.097505
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.150915
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.150490
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.945989
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.944939
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.096430
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.095531
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.017099
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.015941
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.981673
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.980647
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [fedavg_api.py:147:train] ################Communication round : 9
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.953875
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.952860
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.108780
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.107956
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.937555
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.936953
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.982205
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.981754
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.093437
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.091999
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.149289
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.148938
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.942207
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.941262
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.092603
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.091815
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.013128
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.012090
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.977715
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.976805
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [fedavg_api.py:147:train] ################Communication round : 10
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.949979
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.949054
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.105435
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.104691
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.935391
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.934858
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:39] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.980205
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:39] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.979806
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:39] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.088335
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:39] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.087020
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:39] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.147965
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:39] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.147697
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:39] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.938817
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:39] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.937958
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.089210
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.088509
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.009583
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.008641
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.974174
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.973354
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [fedavg_api.py:147:train] ################Communication round : 11
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.946428
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.945575
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.102404
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:40] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.101723
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:41] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.933473
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:41] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.932992
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:41] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.978435
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:41] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.978075
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:41] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.083680
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:41] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.082461
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:41] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.146904
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:41] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.146676
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.935742
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.934951
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.086159
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.085526
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.006374
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.005506
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.970964
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.970212
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [fedavg_api.py:147:train] ################Communication round : 12
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:42] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.943146
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.942346
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.099615
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.098979
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.931740
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.931297
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.976836
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.976502
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.079373
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:43] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.078228
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:44] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.145988
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:44] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.145786
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:44] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.932915
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:44] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.932177
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:44] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.083367
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:44] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.082781
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:44] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.003420
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:44] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.002607
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.968017
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.967320
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [fedavg_api.py:147:train] ################Communication round : 13
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.940063
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.939301
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.097002
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.096397
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.930140
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.929722
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.975353
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:45] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.975034
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.075328
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.074238
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.145165
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.144977
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.930277
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.929577
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.080762
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.080208
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 1.000650
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:46] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.999876
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.965273
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.964615
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [fedavg_api.py:147:train] ################Communication round : 14
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.937119
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.936382
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.094508
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.093921
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:47] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.928625
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.928221
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.973940
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.973625
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.071472
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.070418
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.144389
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.144205
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.927773
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:48] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.927100
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.078280
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.077743
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [fedavg_api.py:147:train] ################Communication round : 15
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.934259
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.933533
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.092078
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:49] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.091496
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:50] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.927152
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:50] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.926750
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:50] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.972552
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:50] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.972232
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:50] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.067734
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:50] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.066699
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:50] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.143619
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:50] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.143430
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.925356
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.924698
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.075862
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.075328
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.995418
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.994675
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.960177
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.959563
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [fedavg_api.py:147:train] ################Communication round : 16
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:51] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.931429
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.930703
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.089663
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.089076
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.925678
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.925269
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.971150
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.970816
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.064049
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.063017
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:52] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.142818
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:53] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.142613
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:53] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.922981
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:53] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.922327
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:53] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.073453
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:53] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.072908
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:53] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.992843
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:53] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.992096
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.957717
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.957104
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [fedavg_api.py:147:train] ################Communication round : 17
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.928583
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.927843
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.087215
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.086611
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.924166
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.923740
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.969694
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:54] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.969338
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.060356
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.059312
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.141948
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.141720
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.920605
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.919945
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.071001
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.070432
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.990227
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:55] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.989463
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.955249
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.954626
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [fedavg_api.py:147:train] ################Communication round : 18
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.925671
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.924907
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.084690
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.084057
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:56] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.922577
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.922124
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.968148
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.967761
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.056595
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.055525
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.140974
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.140712
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.918187
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:57] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.917511
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.068453
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.067848
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.987522
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.986727
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.952730
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.952087
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [fedavg_api.py:147:train] ################Communication round : 19
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.922648
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.921848
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.082040
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:58] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.081369
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:59] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.920873
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:59] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.920383
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:59] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.966474
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:59] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.966047
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:59] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.052709
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:59] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.051596
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:59] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.139859
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:50:59] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.139554
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.915687
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.914985
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.065758
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.065105
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.984676
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.983837
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.950118
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.949444
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [fedavg_api.py:147:train] ################Communication round : 20
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:00] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.919466
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.918619
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.079220
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.078499
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.919017
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.918479
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.964633
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.964157
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.048636
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:01] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.047465
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.138565
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.138208
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.913065
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.912326
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.062866
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.062149
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.981640
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.980744
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:02] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.947370
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.946654
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [fedavg_api.py:223:train] iteration 20, dev-MSE=0.020985, train-loss=0.005753, dev-loss=0.000794, mean-recent-eval=-0.011339
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [fedavg_api.py:223:train]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [fedavg_api.py:147:train] ################Communication round : 21
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.916078
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.915171
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.076184
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.075400
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.916967
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:03] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.916371
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.962587
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.962053
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.044318
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.043073
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.137053
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.136635
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.910277
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.909491
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.059720
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:04] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.058927
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.978363
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.977397
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.944443
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.943674
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [fedavg_api.py:147:train] ################Communication round : 22
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.912434
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.911455
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.072881
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:05] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.072023
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:06] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.914683
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:06] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.914018
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:06] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.960295
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:06] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.959691
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:06] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.039691
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:06] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.038356
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:06] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.135283
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:06] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.134792
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.907283
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.906439
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.056266
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.055382
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.974792
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.973742
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.941293
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.940459
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [fedavg_api.py:147:train] ################Communication round : 23
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.908483
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:07] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.907419
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:08] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.069261
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:08] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.068315
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:08] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.912120
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:08] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.911373
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:08] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.957712
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:08] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.957030
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:08] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.034690
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:08] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.033248
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:09] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.133210
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:09] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.132635
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:09] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.904037
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:09] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.903123
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:09] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.052445
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:09] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.051453
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:09] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.970872
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:09] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.969723
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.937873
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.936962
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [fedavg_api.py:147:train] ################Communication round : 24
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.904172
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.903008
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.065269
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.064223
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.909232
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.908391
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.954795
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:10] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.954021
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:11] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.029248
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:11] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.027681
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:11] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.130787
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:11] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.130115
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:11] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.900493
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:11] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.899498
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:11] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.048193
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:11] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.047077
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.966545
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.965281
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.934134
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.933135
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [fedavg_api.py:147:train] ################Communication round : 25
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.899443
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.898167
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.060850
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.059689
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:12] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.905969
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.905021
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.951494
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.950617
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.023293
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.021581
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.127964
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.127181
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.896602
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.895514
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:13] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.043444
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.042187
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.961749
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.960354
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.930027
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.928927
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [fedavg_api.py:147:train] ################Communication round : 26
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.894239
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.892835
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:14] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.055943
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.054652
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.902279
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.901209
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.947758
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.946765
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.016751
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.014875
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.124687
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:15] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.123779
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.892313
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.891118
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.038128
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.036710
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.956419
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.954877
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.925499
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.924284
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [fedavg_api.py:147:train] ################Communication round : 27
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.888499
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:16] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.886952
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.050486
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.049050
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.898106
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.896900
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.943534
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.942415
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.009544
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:17] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.007481
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.120897
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.119849
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.887573
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.886260
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.032171
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.030571
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.950489
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:18] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.948781
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.920495
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.919150
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [fedavg_api.py:147:train] ################Communication round : 28
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.882164
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.880466
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.044417
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.042824
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.893398
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.892044
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.938775
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:19] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.937516
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 1.001587
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.999319
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.116534
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.115332
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.882344
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.880909
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.025496
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.023700
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.943890
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:20] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.942000
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.914962
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.913479
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [fedavg_api.py:147:train] ################Communication round : 29
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.875188
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.873322
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.037697
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.035938
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:21] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.888106
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.886586
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.933426
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.932014
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.992812
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.990322
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.111552
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.110193
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.876599
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.875028
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:22] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.018048
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.016038
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.936568
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.934486
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.908860
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.907225
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [fedavg_api.py:147:train] ################Communication round : 30
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.867514
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.865467
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.030274
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:23] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.028334
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.882177
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.880488
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.927441
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.925861
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.983151
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.980423
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.105935
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:24] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.104405
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.870277
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.868550
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.009755
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.007511
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.928479
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.926191
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.902129
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.900329
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [fedavg_api.py:147:train] ################Communication round : 31
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.859089
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:25] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.856854
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.022087
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.019967
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.875580
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.873702
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.920770
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.919023
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.972538
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:26] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.969550
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.099619
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.097904
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.863315
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.861432
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 1.000550
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.998060
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.919573
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:27] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.917073
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.894721
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.892744
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [fedavg_api.py:147:train] ################Communication round : 32
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.849895
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.847462
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.013144
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.010840
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.868260
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.866207
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.913411
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:28] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.911488
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.960904
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.957643
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.092561
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.090656
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.855704
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.853657
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.990397
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.987660
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:29] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.909810
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.907078
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.886596
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.884438
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [fedavg_api.py:147:train] ################Communication round : 33
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.839888
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.837268
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.003419
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 1.000920
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:30] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.860256
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.858031
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.905319
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.903220
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.948222
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.944692
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.084724
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.082621
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.847401
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.845170
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:31] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.979285
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.976296
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.899144
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.896173
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.877743
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.875416
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [fedavg_api.py:147:train] ################Communication round : 34
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.829165
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.826389
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 0.992877
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:32] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 0.990195
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.851565
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.849171
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.896554
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.894319
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.934508
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.930707
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.076118
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:33] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.073839
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.838338
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.835937
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.967173
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.963942
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.887570
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.884422
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.868207
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.865710
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [fedavg_api.py:147:train] ################Communication round : 35
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.817740
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:34] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.814801
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 0.981569
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 0.978714
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.842286
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.839775
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.887237
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.884938
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.919819
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:35] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.915809
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.826148
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.954141
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.950717
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.875371
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:36] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.872080
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.858008
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 9	Epoch: 1	Loss: 0.855397
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [fedavg_api.py:147:train] ################Communication round : 36
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [fedavg_api.py:288:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [fedavg_api.py:159:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.805751
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 0	Epoch: 1	Loss: 0.802775
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 0.969664
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 1	Epoch: 1	Loss: 0.966766
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.832643
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 2	Epoch: 1	Loss: 0.830088
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.877753
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:37] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 3	Epoch: 1	Loss: 0.875516
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.904501
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 4	Epoch: 1	Loss: 0.900452
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.057398
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 5	Epoch: 1	Loss: 1.055089
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.818579
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 6	Epoch: 1	Loss: 0.816002
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.940469
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 7	Epoch: 1	Loss: 0.937017
+[FedML-Client @device-id-0] [Mon, 29 Jul 2024 01:51:38] [INFO] [my_model_trainer_classification.py:91:train] Client Index = 8	Epoch: 1	Loss: 0.862659

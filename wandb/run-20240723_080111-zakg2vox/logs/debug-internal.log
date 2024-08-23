@@ -1,0 +1,232 @@
+2024-07-23 08:01:11,792 INFO    StreamThr :185833 [internal.py:wandb_internal():86] W&B internal server running at pid: 185833, started at: 2024-07-23 08:01:11.791091
+2024-07-23 08:01:11,799 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status
+2024-07-23 08:01:11,848 INFO    WriterThread:185833 [datastore.py:open_for_write():87] open: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/run-zakg2vox.wandb
+2024-07-23 08:01:11,850 DEBUG   SenderThread:185833 [sender.py:send():382] send: header
+2024-07-23 08:01:11,872 DEBUG   SenderThread:185833 [sender.py:send():382] send: run
+2024-07-23 08:01:12,690 INFO    SenderThread:185833 [dir_watcher.py:__init__():211] watching files in: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files
+2024-07-23 08:01:12,691 INFO    SenderThread:185833 [sender.py:_start_run_threads():1136] run started: zakg2vox with start time 1721721671.792457
+2024-07-23 08:01:12,763 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: check_version
+2024-07-23 08:01:12,763 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: check_version
+2024-07-23 08:01:12,819 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: run_start
+2024-07-23 08:01:12,961 DEBUG   HandlerThread:185833 [system_info.py:__init__():27] System info init
+2024-07-23 08:01:12,961 DEBUG   HandlerThread:185833 [system_info.py:__init__():42] System info init done
+2024-07-23 08:01:12,961 INFO    HandlerThread:185833 [system_monitor.py:start():194] Starting system monitor
+2024-07-23 08:01:12,963 INFO    HandlerThread:185833 [system_monitor.py:probe():214] Collecting system info
+2024-07-23 08:01:12,963 INFO    SystemMonitor:185833 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-23 08:01:12,966 INFO    SystemMonitor:185833 [interfaces.py:start():190] Started cpu monitoring
+2024-07-23 08:01:12,969 INFO    SystemMonitor:185833 [interfaces.py:start():190] Started disk monitoring
+2024-07-23 08:01:12,974 INFO    SystemMonitor:185833 [interfaces.py:start():190] Started gpu monitoring
+2024-07-23 08:01:12,977 INFO    SystemMonitor:185833 [interfaces.py:start():190] Started memory monitoring
+2024-07-23 08:01:12,979 INFO    SystemMonitor:185833 [interfaces.py:start():190] Started network monitoring
+2024-07-23 08:01:13,087 DEBUG   HandlerThread:185833 [system_info.py:probe():151] Probing system
+2024-07-23 08:01:13,091 DEBUG   HandlerThread:185833 [system_info.py:_probe_git():136] Probing git
+2024-07-23 08:01:13,103 DEBUG   HandlerThread:185833 [system_info.py:_probe_git():144] Probing git done
+2024-07-23 08:01:13,103 DEBUG   HandlerThread:185833 [system_info.py:probe():199] Probing system done
+2024-07-23 08:01:13,103 DEBUG   HandlerThread:185833 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-116-generic-x86_64-with-glibc2.35', 'python': '3.11.5', 'heartbeatAt': '2024-07-23T08:01:13.087946', 'startedAt': '2024-07-23T08:01:11.744595', 'docker': None, 'cuda': None, 'args': ('--cf', '/home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/config/fedml_config.yaml'), 'state': 'running', 'program': '/home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/main.py', 'codePathLocal': 'main.py', 'codePath': 'FEDGMM/sp_decentralized_mnist_lr_example/main.py', 'git': {'remote': 'https://github.com/agrawals1/Federated.git', 'commit': '8493729795bdbb68d341033103dbf0d21d9a8bbf'}, 'email': 'somyatyagi1207@gmail.com', 'root': '/home/somya/thesis', 'host': 'iiitd', 'username': 'somya', 'executable': '/home/somya/miniconda3/envs/dl/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 1.7787031249999996, 'min': 1500.0, 'max': 2800.0}, 'cpu_freq_per_core': [{'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.474, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 2.584, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 3.111, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 2.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}], 'disk': {'/': {'total': 914.7823104858398, 'used': 541.2677001953125}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 503.74671173095703}}
+2024-07-23 08:01:13,103 INFO    HandlerThread:185833 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-23 08:01:13,103 INFO    HandlerThread:185833 [system_monitor.py:probe():227] Publishing system info
+2024-07-23 08:01:13,103 DEBUG   HandlerThread:185833 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-07-23 08:01:13,699 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_created():271] file/dir created: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/conda-environment.yaml
+2024-07-23 08:01:15,842 DEBUG   HandlerThread:185833 [system_info.py:_save_conda():220] Saving conda packages done
+2024-07-23 08:01:15,878 INFO    HandlerThread:185833 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-23 08:01:15,892 DEBUG   SenderThread:185833 [sender.py:send():382] send: files
+2024-07-23 08:01:15,893 INFO    SenderThread:185833 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-07-23 08:01:15,924 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: python_packages
+2024-07-23 08:01:15,924 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: python_packages
+2024-07-23 08:01:15,927 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-23 08:01:15,927 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: stop_status
+2024-07-23 08:01:15,942 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-23 08:01:16,325 DEBUG   SenderThread:185833 [sender.py:send():382] send: telemetry
+2024-07-23 08:01:16,693 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/conda-environment.yaml
+2024-07-23 08:01:16,693 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_created():271] file/dir created: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/requirements.txt
+2024-07-23 08:01:16,694 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_created():271] file/dir created: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/wandb-metadata.json
+2024-07-23 08:01:17,005 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:01:17,022 INFO    wandb-upload_0:185833 [upload_job.py:push():131] Uploaded file /tmp/tmp3izbnir7wandb/wpopvlao-wandb-metadata.json
+2024-07-23 08:01:17,693 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_created():271] file/dir created: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/output.log
+2024-07-23 08:01:19,695 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/output.log
+2024-07-23 08:01:22,010 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:01:27,011 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:01:32,013 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:01:37,015 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:01:42,021 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:01:42,710 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/config.yaml
+2024-07-23 08:01:47,410 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:01:52,411 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:01:57,413 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:02,414 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:07,416 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:12,416 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:12,980 DEBUG   SystemMonitor:185833 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-23 08:02:12,986 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:02:17,989 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:22,991 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:27,992 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:32,994 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:37,995 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:42,992 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:02:43,994 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:48,995 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:53,997 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:02:58,999 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:04,000 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:09,001 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:12,994 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:03:14,996 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:19,998 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:24,999 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:30,000 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:35,001 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:40,003 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:42,997 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:03:46,000 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:51,001 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:03:56,003 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:01,005 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:06,006 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:11,007 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:13,002 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:04:17,004 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:22,005 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:27,006 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:32,007 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:37,008 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:42,009 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:43,006 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:04:48,009 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:53,010 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:04:58,011 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:03,012 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:08,014 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:13,011 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:05:14,013 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:19,014 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:24,015 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:29,016 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:34,017 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:39,018 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:43,016 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:05:44,018 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:49,019 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:54,020 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:05:59,022 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:04,023 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:09,025 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:13,020 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:06:15,023 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:20,024 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:25,026 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:30,028 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:35,029 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:40,030 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:43,025 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:06:46,027 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:51,029 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:06:56,030 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:01,032 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:06,035 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:11,036 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:13,031 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:07:17,034 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:18,435 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-23 08:07:18,436 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: stop_status
+2024-07-23 08:07:18,445 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-23 08:07:22,781 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:27,132 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: keepalive
+2024-07-23 08:07:27,918 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/output.log
+2024-07-23 08:07:28,172 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:29,919 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/output.log
+2024-07-23 08:07:33,173 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:35,898 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-23 08:07:35,899 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: stop_status
+2024-07-23 08:07:37,923 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/output.log
+2024-07-23 08:07:38,409 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:43,034 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:07:44,037 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:49,038 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:54,040 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:07:59,041 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:08:04,042 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:08:09,043 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:08:13,041 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:08:15,043 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:08:20,044 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:08:25,046 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:08:26,648 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-23 08:08:26,649 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-23 08:08:26,650 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: stop_status
+2024-07-23 08:08:30,498 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:08:31,997 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/output.log
+2024-07-23 08:08:32,735 DEBUG   SenderThread:185833 [sender.py:send():382] send: exit
+2024-07-23 08:08:32,735 INFO    SenderThread:185833 [sender.py:send_exit():589] handling exit code: 0
+2024-07-23 08:08:32,736 INFO    SenderThread:185833 [sender.py:send_exit():591] handling runtime: 439
+2024-07-23 08:08:32,737 INFO    SenderThread:185833 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-07-23 08:08:32,737 INFO    SenderThread:185833 [sender.py:send_exit():597] send defer
+2024-07-23 08:08:32,738 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:32,738 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 0
+2024-07-23 08:08:32,738 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:32,739 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-07-23 08:08:32,739 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 1
+2024-07-23 08:08:32,739 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:32,739 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 1
+2024-07-23 08:08:32,740 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:32,740 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-07-23 08:08:32,740 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 2
+2024-07-23 08:08:32,740 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:32,741 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 2
+2024-07-23 08:08:32,741 INFO    HandlerThread:185833 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-23 08:08:32,741 DEBUG   SystemMonitor:185833 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-23 08:08:32,742 DEBUG   SystemMonitor:185833 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-23 08:08:32,747 INFO    HandlerThread:185833 [interfaces.py:finish():202] Joined cpu monitor
+2024-07-23 08:08:32,748 INFO    HandlerThread:185833 [interfaces.py:finish():202] Joined disk monitor
+2024-07-23 08:08:32,998 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_created():271] file/dir created: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/wandb-summary.json
+2024-07-23 08:08:33,300 INFO    HandlerThread:185833 [interfaces.py:finish():202] Joined gpu monitor
+2024-07-23 08:08:33,301 INFO    HandlerThread:185833 [interfaces.py:finish():202] Joined memory monitor
+2024-07-23 08:08:33,301 INFO    HandlerThread:185833 [interfaces.py:finish():202] Joined network monitor
+2024-07-23 08:08:33,303 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:33,303 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-07-23 08:08:33,303 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 3
+2024-07-23 08:08:33,304 DEBUG   SenderThread:185833 [sender.py:send():382] send: stats
+2024-07-23 08:08:33,306 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:33,306 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 3
+2024-07-23 08:08:33,307 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:33,307 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-07-23 08:08:33,307 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 4
+2024-07-23 08:08:33,307 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:33,308 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 4
+2024-07-23 08:08:33,308 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:33,309 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-07-23 08:08:33,309 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 5
+2024-07-23 08:08:33,309 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:33,309 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 5
+2024-07-23 08:08:33,310 DEBUG   SenderThread:185833 [sender.py:send():382] send: summary
+2024-07-23 08:08:33,311 INFO    SenderThread:185833 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-07-23 08:08:33,312 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:33,312 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-07-23 08:08:33,312 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 6
+2024-07-23 08:08:33,312 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:33,312 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 6
+2024-07-23 08:08:33,313 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:33,313 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-07-23 08:08:33,314 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 7
+2024-07-23 08:08:33,314 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:08:33,314 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:33,314 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 7
+2024-07-23 08:08:33,315 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:33,315 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-07-23 08:08:33,498 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 8
+2024-07-23 08:08:33,499 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:33,499 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 8
+2024-07-23 08:08:33,500 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: defer
+2024-07-23 08:08:33,500 INFO    SenderThread:185833 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-07-23 08:08:33,500 INFO    SenderThread:185833 [job_builder.py:build():296] Attempting to build job artifact
+2024-07-23 08:08:33,502 INFO    SenderThread:185833 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-07-23 08:08:33,735 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-23 08:08:33,999 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/wandb-summary.json
+2024-07-23 08:08:33,999 INFO    Thread-18 :185833 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_080111-zakg2vox/files/output.log
+2024-07-23 08:08:34,872 INFO    SenderThread:185833 [job_builder.py:build():402] adding wandb-job metadata file
+2024-07-23 08:08:34,902 INFO    SenderThread:185833 [sender.py:transition_state():617] send defer: 9
+2024-07-23 08:08:34,903 DEBUG   SenderThread:185833 [sender.py:send_request():409] send_request: poll_exit
+2024-07-23 08:08:34,904 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: defer
+2024-07-23 08:08:34,904 INFO    HandlerThread:185833 [handler.py:handle_request_defer():172] handle defer: 9
+2024-07-23 08:08:34,905 DEBUG   SenderThread:185833 [sender.py:send():382] send: artifact
+2024-07-23 08:08:35,737 DEBUG   HandlerThread:185833 [handler.py:handle_request():146] handle_request: poll_exit

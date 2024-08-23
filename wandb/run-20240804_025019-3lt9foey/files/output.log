@@ -1,0 +1,255 @@
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [__init__.py:163:init] args.rank = 0, args.worker_num = 10
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [ml_engine_adapter.py:147:get_torch_device] args = <fedml.arguments.Arguments object at 0x7f28fbcaafd0>, using_gpu = True, device_id = 1, device_type = gpu
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [device.py:48:get_device] device = cuda:1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [data_loader.py:259:load_synthetic_data] load_data. dataset_name = zoo
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:116:info] test
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:116:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   x:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   z:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x2
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   y:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   g:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   w:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:116:info] train
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:116:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   x:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]       min: -6.13
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info] , max: 5.79
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   z:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x2
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]       min: -3.00
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info] , max: 3.00
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   y:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]       min: -4.02
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info] , max: 3.69
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   g:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]       min: -0.31
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info] , max: 0.32
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   w:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]       min: -6.13
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info] , max: 5.79
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:33:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:116:info] dev
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:116:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   x:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   z:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x2
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   y:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   g:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]   w:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] ndarray
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] (float64):
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info] 20000x1
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [abstract_scenario.py:31:info]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:27] [INFO] [model_hub.py:23:create] create_model. model_name = lr, output_dim = None
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:28] [INFO] [fedavg_api.py:58:__init__] model = [[MLPModel(
+  (model): Sequential(
+    (0): Linear(in_features=1, out_features=20, bias=True)
+    (1): LeakyReLU(negative_slope=0.01)
+    (2): Linear(in_features=20, out_features=3, bias=True)
+    (3): LeakyReLU(negative_slope=0.01)
+    (4): Linear(in_features=3, out_features=1, bias=True)
+  )
+)], [MLPModel(
+  (model): Sequential(
+    (0): Linear(in_features=2, out_features=20, bias=True)
+    (1): LeakyReLU(negative_slope=0.01)
+    (2): Linear(in_features=20, out_features=1, bias=True)
+  )
+)], [MLPModel(
+  (model): Sequential(
+    (0): Linear(in_features=1, out_features=20, bias=True)
+    (1): LeakyReLU(negative_slope=0.01)
+    (2): Linear(in_features=20, out_features=3, bias=True)
+    (3): LeakyReLU(negative_slope=0.01)
+    (4): Linear(in_features=3, out_features=1, bias=True)
+  )
+)]]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:28] [INFO] [model_selection_class.py:38:do_model_selection] starting learning args eval 0
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 02:50:28] [INFO] [model_selection_class.py:38:do_model_selection]
+/home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/optimizers/oadam.py:94: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at /opt/conda/conda-bld/pytorch_1704987615470/work/torch/csrc/utils/python_arg_parser.cpp:1630.)
+  exp_avg.mul_(beta1).add_(1 - beta1, grad)
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection] learning eval:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection] -0.0002747635686199607
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection] OptimalObjective::lambda_1=0.250000
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection] OAdam:::'lr'=0.0005:'betas'=(0.5, 0.9)
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:68:do_model_selection]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:82:do_model_selection] size of f_z collection:
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:82:do_model_selection]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:82:do_model_selection] 200
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [model_selection_class.py:82:do_model_selection]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:42] [INFO] [fedavg_api.py:122:_setup_clients] ############setup_clients (START)#############
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:09:43] [INFO] [fedavg_api.py:136:_setup_clients] ############setup_clients (END)#############
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:10:01] [INFO] [fedavg_api.py:139:train] self.model_trainer = <fedml.ml.trainer.my_model_trainer_classification.ModelTrainerCLS object at 0x7f28e0281cd0>
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:10:07] [INFO] [fedavg_api.py:149:train] ################Communication round : 0
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:10:07] [INFO] [fedavg_api.py:290:_client_sampling] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:10:07] [INFO] [fedavg_api.py:161:train] client_indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write] model.0.weight
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write] model.0.bias
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write] model.2.weight
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write] model.2.bias
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write] model.4.weight
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write] model.4.bias
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:14:10] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write] tensor([[ 0.6514],
+        [-0.1264],
+        [-0.3637],
+        [ 0.2754],
+        [-0.0138],
+        [-0.6037],
+        [-0.1230],
+        [ 0.1508],
+        [-0.0380],
+        [-0.1475],
+        [-0.2183],
+        [ 0.2631],
+        [-0.1063],
+        [ 0.4766],
+        [ 0.3555],
+        [-0.5008],
+        [-0.4937],
+        [-0.1391],
+        [ 0.2026],
+        [-0.0107]], device='cuda:1', dtype=torch.float64)
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write] tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       device='cuda:1', dtype=torch.float64)
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write] tensor([[ 4.1530e-02, -5.3432e-01, -1.7818e-01, -4.6929e-01, -1.5262e-01,
+          2.8909e-01, -2.8352e-01, -1.7118e-01,  3.0380e-02, -2.1356e-02,
+         -2.9179e-01, -2.3284e-01,  4.8911e-01, -2.9052e-02,  1.1146e-01,
+          2.9382e-01, -1.2141e-01,  5.1880e-01,  9.2374e-02, -9.2655e-02],
+        [ 5.4119e-02,  2.3249e-01,  1.1682e-01, -6.0303e-02,  1.8066e-01,
+          4.4379e-01, -2.7970e-01,  2.1542e-01, -3.6450e-01,  1.1570e-02,
+         -4.7078e-01,  2.0472e-01, -2.2237e-01, -2.8355e-01,  7.7587e-04,
+         -1.0253e+00,  3.0244e-02, -2.0498e-01,  2.9965e-01, -9.3265e-02],
+        [-2.5986e-01,  1.2950e-01, -6.0927e-02,  2.3919e-01,  3.0883e-01,
+          3.7444e-02,  4.2730e-02,  1.0331e-01, -2.2688e-01,  1.9370e-01,
+          9.3383e-03,  2.3685e-02,  1.2708e-01, -1.9541e-01, -1.7567e-01,
+         -1.6505e-01, -1.9813e-02,  6.9245e-01, -6.3200e-01, -2.2661e-01]],
+       device='cuda:1', dtype=torch.float64)
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write] tensor([0., 0., 0.], device='cuda:1', dtype=torch.float64)
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write] tensor([[ 0.5213, -0.8629, -0.5765]], device='cuda:1', dtype=torch.float64)
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write]
+[FedML-Client @device-id-0] [Sun, 04 Aug 2024 03:25:19] [INFO] [pydevd_io.py:40:write] tensor([0.], device='cuda:1', dtype=torch.float64)

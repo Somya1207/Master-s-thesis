@@ -1,0 +1,25 @@
+2024-08-09 12:27:46,053 INFO    MainThread:1675554 [wandb_setup.py:_flush():76] Configure stats pid to 1675554
+2024-08-09 12:27:46,054 INFO    MainThread:1675554 [wandb_setup.py:_flush():76] Loading settings from /home/somya/.config/wandb/settings
+2024-08-09 12:27:46,054 INFO    MainThread:1675554 [wandb_setup.py:_flush():76] Loading settings from /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/settings
+2024-08-09 12:27:46,054 INFO    MainThread:1675554 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2024-08-09 12:27:46,054 INFO    MainThread:1675554 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'fedgmm/sp_decentralized_mnist_lr_example/main.py', 'program': '/home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/main.py'}
+2024-08-09 12:27:46,055 INFO    MainThread:1675554 [wandb_init.py:_log_setup():461] Logging user logs to /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240809_122746-f4v0m9u3/logs/debug.log
+2024-08-09 12:27:46,055 INFO    MainThread:1675554 [wandb_init.py:_log_setup():462] Logging internal logs to /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240809_122746-f4v0m9u3/logs/debug-internal.log
+2024-08-09 12:27:46,055 INFO    MainThread:1675554 [wandb_init.py:init():495] calling init triggers
+2024-08-09 12:27:46,055 INFO    MainThread:1675554 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'yaml_config_file': '/home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/config/fedml_config.yaml', 'run_id': '0', 'rank': 0, 'local_rank': 0, 'node_rank': 0, 'role': 'client', 'run_device_id': '0', 'using_mlops': False, 'yaml_paths': ['/home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/config/fedml_config.yaml'], 'training_type': 'simulation', 'random_seed': 0, 'config_version': 'dev', 'mlops_api_key': 'c9356b9c4ce44363bb66366b210201', 'mlops_project_name': 'simulation_2', 'mlops_run_name': 'fedml_torch_fedavg_mnist_lr_1', 'scenario_name': 'step', 'dataset': 'zoo', 'data_cache_dir': '/home/somya/.cache/fedml_data', 'partition_method': 'hetero', 'partition_alpha': 0.3, 'psi_eval_max_no_progress': 20, 'psi_eval_burn_in': 50, 'model': 'lr', 'federated_optimizer': 'FedAvg', 'client_id_list': '[]', 'client_num_in_total': 10, 'client_num_per_round': 10, 'comm_round': 350, 'epochs': 2, 'epochs_model_selection': 2000, 'batch_size': 200, 'client_optimizer': 'sgd', 'learning_rate': 0.0005, 'weight_decay': 0.001, 'frequency_of_the_test': 20, 'print_freq': 10, 'verbose': True, 'print_freq_mul': 5, 'burn_in': 100, 'max_no_progress': 20, 'eval_freq': 20, 'video_plotter': False, 'using_gpu': True, 'gpu_id': 1, 'backend': 'sp', 'enable_tracking': False, 'enable_wandb': True, 'wandb_key': '3707945e4c94eb3321cc407ff126f7ed4215db82', 'wandb_entity': 'somya23005', 'wandb_project': 'fedgmm', 'run_name': 'comm_round-350_epochs_model_selection-2000_scenario_name-step_0.3_prox', 'worker_num': 10, 'sys_perf_profiling': True}
+2024-08-09 12:27:46,056 INFO    MainThread:1675554 [wandb_init.py:init():548] starting backend
+2024-08-09 12:27:46,056 INFO    MainThread:1675554 [wandb_init.py:init():552] setting up manager
+2024-08-09 12:27:46,067 INFO    MainThread:1675554 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-09 12:27:46,079 INFO    MainThread:1675554 [wandb_init.py:init():558] backend started and connected
+2024-08-09 12:27:46,092 INFO    MainThread:1675554 [wandb_init.py:init():636] updated telemetry
+2024-08-09 12:27:46,103 INFO    MainThread:1675554 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2024-08-09 12:27:47,085 INFO    MainThread:1675554 [wandb_run.py:_on_init():1982] communicating current version
+2024-08-09 12:27:47,376 INFO    MainThread:1675554 [wandb_run.py:_on_init():1986] got version response upgrade_message: "wandb version 0.17.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-08-09 12:27:47,376 INFO    MainThread:1675554 [wandb_init.py:init():700] starting run threads in backend
+2024-08-09 12:27:52,411 INFO    MainThread:1675554 [wandb_run.py:_console_start():1962] atexit reg
+2024-08-09 12:27:52,412 INFO    MainThread:1675554 [wandb_run.py:_redirect():1820] redirect: 3
+2024-08-09 12:27:52,413 INFO    MainThread:1675554 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2024-08-09 12:27:52,413 INFO    MainThread:1675554 [wandb_run.py:_redirect():1907] Redirects installed.
+2024-08-09 12:27:52,414 INFO    MainThread:1675554 [wandb_init.py:init():732] run started, returning control to user process

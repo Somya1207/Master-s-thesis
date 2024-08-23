@@ -1,0 +1,27 @@
+2024-07-23 08:21:51,230 INFO    MainThread:214691 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-07-23 08:21:51,231 INFO    MainThread:214691 [wandb_setup.py:_flush():76] Configure stats pid to 214691
+2024-07-23 08:21:51,231 INFO    MainThread:214691 [wandb_setup.py:_flush():76] Loading settings from /home/somya/.config/wandb/settings
+2024-07-23 08:21:51,231 INFO    MainThread:214691 [wandb_setup.py:_flush():76] Loading settings from /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/settings
+2024-07-23 08:21:51,231 INFO    MainThread:214691 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-23 08:21:51,231 INFO    MainThread:214691 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-23 08:21:51,232 INFO    MainThread:214691 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'FEDGMM/sp_decentralized_mnist_lr_example/main.py', 'program_abspath': '/home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/main.py', 'program': '/home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/main.py'}
+2024-07-23 08:21:51,232 INFO    MainThread:214691 [wandb_init.py:_log_setup():526] Logging user logs to /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_082151-a1105rrt/logs/debug.log
+2024-07-23 08:21:51,232 INFO    MainThread:214691 [wandb_init.py:_log_setup():527] Logging internal logs to /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_082151-a1105rrt/logs/debug-internal.log
+2024-07-23 08:21:51,233 INFO    MainThread:214691 [wandb_init.py:init():566] calling init triggers
+2024-07-23 08:21:51,233 INFO    MainThread:214691 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'yaml_config_file': '/home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/config/fedml_config.yaml', 'run_id': '0', 'rank': 0, 'local_rank': 0, 'node_rank': 0, 'role': 'client', 'run_device_id': '0', 'using_mlops': False, 'yaml_paths': ['/home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/config/fedml_config.yaml'], 'training_type': 'simulation', 'random_seed': 0, 'config_version': 'dev', 'mlops_api_key': 'c9356b9c4ce44363bb66366b210201', 'mlops_project_name': 'simulation_2', 'mlops_run_name': 'fedml_torch_fedavg_mnist_lr_1', 'scenario_name': 'step', 'dataset': 'zoo', 'data_cache_dir': '/home/somya/.cache/fedml_data', 'partition_method': 'hetero', 'partition_alpha': 0.5, 'psi_eval_max_no_progress': 20, 'psi_eval_burn_in': 50, 'model': 'lr', 'federated_optimizer': 'FedAvg', 'client_id_list': '[]', 'client_num_in_total': 10, 'client_num_per_round': 10, 'comm_round': 350, 'epochs': 2, 'epochs_model_selection': 2000, 'batch_size': 200, 'client_optimizer': 'sgd', 'learning_rate': 0.0005, 'weight_decay': 0.001, 'frequency_of_the_test': 20, 'print_freq': 10, 'verbose': True, 'print_freq_mul': 5, 'burn_in': 100, 'max_no_progress': 20, 'eval_freq': 20, 'video_plotter': False, 'using_gpu': True, 'gpu_id': 1, 'backend': 'sp', 'enable_tracking': False, 'enable_wandb': True, 'wandb_key': '3707945e4c94eb3321cc407ff126f7ed4215db82', 'wandb_entity': 'somya23005', 'wandb_project': 'FEDGMM', 'run_name': 'comm_round-350_epochs_model_selection-2000_scenario_name-step', 'worker_num': 10, 'sys_perf_profiling': True}
+2024-07-23 08:21:51,233 INFO    MainThread:214691 [wandb_init.py:init():616] starting backend
+2024-07-23 08:21:51,233 INFO    MainThread:214691 [wandb_init.py:init():620] setting up manager
+2024-07-23 08:21:51,251 INFO    MainThread:214691 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-23 08:21:51,271 INFO    MainThread:214691 [wandb_init.py:init():628] backend started and connected
+2024-07-23 08:21:51,304 INFO    MainThread:214691 [wandb_init.py:init():720] updated telemetry
+2024-07-23 08:21:51,319 INFO    MainThread:214691 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-23 08:21:52,027 ERROR   MainThread:214691 [wandb_init.py:init():779] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-07-23 08:21:52,223 ERROR   MainThread:214691 [wandb_init.py:init():1194] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 785, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)

@@ -1,0 +1,188 @@
+2024-07-25 01:17:22,821 INFO    StreamThr :447844 [internal.py:wandb_internal():90] W&B internal server running at pid: 447844, started at: 2024-07-25 01:17:22.820112
+2024-07-25 01:17:22,829 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: status
+2024-07-25 01:17:22,831 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: status
+2024-07-25 01:17:22,835 INFO    WriterThread:447844 [datastore.py:open_for_write():75] open: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/run-3f6tjq2a.wandb
+2024-07-25 01:17:22,835 DEBUG   SenderThread:447844 [sender.py:send():302] send: header
+2024-07-25 01:17:22,840 DEBUG   SenderThread:447844 [sender.py:send():302] send: run
+2024-07-25 01:17:23,630 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: check_version
+2024-07-25 01:17:23,637 INFO    SenderThread:447844 [dir_watcher.py:__init__():216] watching files in: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files
+2024-07-25 01:17:23,637 INFO    SenderThread:447844 [sender.py:_start_run_threads():913] run started: 3f6tjq2a with start time 1721870242.819109
+2024-07-25 01:17:23,637 DEBUG   SenderThread:447844 [sender.py:send():302] send: summary
+2024-07-25 01:17:23,638 INFO    SenderThread:447844 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-07-25 01:17:23,639 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: check_version
+2024-07-25 01:17:23,730 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: run_start
+2024-07-25 01:17:23,781 DEBUG   HandlerThread:447844 [meta.py:__init__():35] meta init
+2024-07-25 01:17:23,782 DEBUG   HandlerThread:447844 [meta.py:__init__():50] meta init done
+2024-07-25 01:17:23,782 DEBUG   HandlerThread:447844 [meta.py:probe():216] probe
+2024-07-25 01:17:23,794 DEBUG   HandlerThread:447844 [meta.py:_setup_git():206] setup git
+2024-07-25 01:17:23,810 DEBUG   HandlerThread:447844 [meta.py:_setup_git():213] setup git done
+2024-07-25 01:17:23,811 DEBUG   HandlerThread:447844 [meta.py:_save_pip():54] save pip
+2024-07-25 01:17:23,815 DEBUG   HandlerThread:447844 [meta.py:_save_pip():68] save pip done
+2024-07-25 01:17:23,815 DEBUG   HandlerThread:447844 [meta.py:_save_conda():75] save conda
+2024-07-25 01:17:24,645 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/conda-environment.yaml
+2024-07-25 01:17:24,646 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/wandb-summary.json
+2024-07-25 01:17:24,646 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/requirements.txt
+2024-07-25 01:17:29,341 DEBUG   HandlerThread:447844 [meta.py:_save_conda():85] save conda done
+2024-07-25 01:17:29,341 DEBUG   HandlerThread:447844 [meta.py:probe():254] probe done
+2024-07-25 01:17:29,643 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/conda-environment.yaml
+2024-07-25 01:17:29,649 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/wandb-metadata.json
+2024-07-25 01:17:29,789 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: stop_status
+2024-07-25 01:17:29,790 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: stop_status
+2024-07-25 01:17:30,139 DEBUG   SenderThread:447844 [sender.py:send():302] send: telemetry
+2024-07-25 01:17:30,139 DEBUG   SenderThread:447844 [sender.py:send():302] send: files
+2024-07-25 01:17:30,140 INFO    SenderThread:447844 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2024-07-25 01:17:30,643 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/output.log
+2024-07-25 01:17:31,075 INFO    Thread-22 :447844 [upload_job.py:push():138] Uploaded file /tmp/tmp1holhd7ywandb/28bfiwnj-wandb-metadata.json
+2024-07-25 01:17:32,645 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/output.log
+2024-07-25 01:17:54,014 DEBUG   SenderThread:447844 [sender.py:send():302] send: stats
+2024-07-25 01:17:54,662 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/config.yaml
+2024-07-25 01:17:59,404 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: stop_status
+2024-07-25 01:17:59,405 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: stop_status
+2024-07-25 01:18:02,668 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/output.log
+2024-07-25 01:18:08,732 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/output.log
+2024-07-25 01:18:22,244 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: stop_status
+2024-07-25 01:18:22,245 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: stop_status
+2024-07-25 01:18:25,737 DEBUG   SenderThread:447844 [sender.py:send():302] send: stats
+2024-07-25 01:18:57,134 DEBUG   SenderThread:447844 [sender.py:send():302] send: stats
+2024-07-25 01:19:08,512 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: stop_status
+2024-07-25 01:19:08,513 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: stop_status
+2024-07-25 01:19:28,190 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: stop_status
+2024-07-25 01:19:28,190 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: stop_status
+2024-07-25 01:19:28,614 DEBUG   SenderThread:447844 [sender.py:send():302] send: stats
+2024-07-25 01:19:49,522 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: stop_status
+2024-07-25 01:19:49,522 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: stop_status
+2024-07-25 01:19:55,723 DEBUG   SenderThread:447844 [sender.py:send():302] send: exit
+2024-07-25 01:19:55,724 INFO    SenderThread:447844 [sender.py:send_exit():438] handling exit code: 0
+2024-07-25 01:19:55,725 INFO    SenderThread:447844 [sender.py:send_exit():440] handling runtime: 151
+2024-07-25 01:19:55,731 INFO    SenderThread:447844 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-07-25 01:19:55,732 INFO    SenderThread:447844 [sender.py:send_exit():446] send defer
+2024-07-25 01:19:55,733 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:55,733 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 0
+2024-07-25 01:19:55,735 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:55,735 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 0
+2024-07-25 01:19:55,736 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 1
+2024-07-25 01:19:55,737 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:55,738 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:55,738 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:55,739 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 1
+2024-07-25 01:19:55,807 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/wandb-summary.json
+2024-07-25 01:19:55,907 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:55,909 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:55,909 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 1
+2024-07-25 01:19:55,909 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 2
+2024-07-25 01:19:55,910 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:55,910 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:55,910 DEBUG   SenderThread:447844 [sender.py:send():302] send: stats
+2024-07-25 01:19:55,911 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 2
+2024-07-25 01:19:55,913 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:55,913 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 2
+2024-07-25 01:19:55,914 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 3
+2024-07-25 01:19:55,914 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:55,914 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 3
+2024-07-25 01:19:55,915 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:55,915 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 3
+2024-07-25 01:19:55,915 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 4
+2024-07-25 01:19:55,916 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:55,916 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 4
+2024-07-25 01:19:55,916 DEBUG   SenderThread:447844 [sender.py:send():302] send: summary
+2024-07-25 01:19:55,917 INFO    SenderThread:447844 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-07-25 01:19:55,918 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:55,918 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 4
+2024-07-25 01:19:55,918 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 5
+2024-07-25 01:19:55,918 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:55,919 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 5
+2024-07-25 01:19:55,919 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:55,919 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 5
+2024-07-25 01:19:55,919 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 6
+2024-07-25 01:19:55,920 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:55,920 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 6
+2024-07-25 01:19:55,920 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:55,921 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 6
+2024-07-25 01:19:56,013 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:56,405 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 7
+2024-07-25 01:19:56,406 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:56,407 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:56,408 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 7
+2024-07-25 01:19:56,408 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:56,408 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 7
+2024-07-25 01:19:56,408 INFO    SenderThread:447844 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-07-25 01:19:56,508 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:56,808 INFO    Thread-18 :447844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/output.log
+2024-07-25 01:19:56,809 INFO    SenderThread:447844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/wandb-summary.json
+2024-07-25 01:19:56,810 INFO    SenderThread:447844 [dir_watcher.py:finish():392] scan: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files
+2024-07-25 01:19:56,810 INFO    SenderThread:447844 [dir_watcher.py:finish():406] scan save: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/config.yaml config.yaml
+2024-07-25 01:19:56,810 INFO    SenderThread:447844 [dir_watcher.py:finish():406] scan save: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/wandb-summary.json wandb-summary.json
+2024-07-25 01:19:56,811 INFO    SenderThread:447844 [dir_watcher.py:finish():406] scan save: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/wandb-metadata.json wandb-metadata.json
+2024-07-25 01:19:56,811 INFO    SenderThread:447844 [dir_watcher.py:finish():406] scan save: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/output.log output.log
+2024-07-25 01:19:56,813 INFO    SenderThread:447844 [dir_watcher.py:finish():406] scan save: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/requirements.txt requirements.txt
+2024-07-25 01:19:56,814 INFO    SenderThread:447844 [dir_watcher.py:finish():406] scan save: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/conda-environment.yaml conda-environment.yaml
+2024-07-25 01:19:56,814 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 8
+2024-07-25 01:19:56,814 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:56,816 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:56,816 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 8
+2024-07-25 01:19:56,826 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:56,827 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 8
+2024-07-25 01:19:56,827 INFO    SenderThread:447844 [file_pusher.py:finish():171] shutting down file pusher
+2024-07-25 01:19:56,918 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:56,918 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,020 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,020 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,122 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,123 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,224 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,225 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,328 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,329 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,430 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,431 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,533 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,533 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,635 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,635 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,737 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,738 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,840 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,840 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,942 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:57,942 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:57,953 INFO    Thread-24 :447844 [upload_job.py:push():138] Uploaded file /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/wandb-summary.json
+2024-07-25 01:19:57,968 INFO    Thread-23 :447844 [upload_job.py:push():138] Uploaded file /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/config.yaml
+2024-07-25 01:19:57,988 INFO    Thread-26 :447844 [upload_job.py:push():138] Uploaded file /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/requirements.txt
+2024-07-25 01:19:58,044 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:58,045 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:58,075 INFO    Thread-27 :447844 [upload_job.py:push():138] Uploaded file /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/conda-environment.yaml
+2024-07-25 01:19:58,079 INFO    Thread-25 :447844 [upload_job.py:push():138] Uploaded file /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/files/output.log
+2024-07-25 01:19:58,147 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:58,147 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:58,249 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:58,250 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:58,280 INFO    Thread-17 (_thread_body):447844 [sender.py:transition_state():459] send defer: 9
+2024-07-25 01:19:58,281 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:58,281 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 9
+2024-07-25 01:19:58,282 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:58,282 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 9
+2024-07-25 01:19:58,352 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:59,230 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 10
+2024-07-25 01:19:59,231 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:59,232 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:59,232 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 10
+2024-07-25 01:19:59,233 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:59,233 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 10
+2024-07-25 01:19:59,233 INFO    SenderThread:447844 [sender.py:transition_state():459] send defer: 11
+2024-07-25 01:19:59,235 DEBUG   SenderThread:447844 [sender.py:send():302] send: final
+2024-07-25 01:19:59,235 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: defer
+2024-07-25 01:19:59,236 DEBUG   SenderThread:447844 [sender.py:send():302] send: footer
+2024-07-25 01:19:59,236 INFO    HandlerThread:447844 [handler.py:handle_request_defer():164] handle defer: 11
+2024-07-25 01:19:59,237 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: defer
+2024-07-25 01:19:59,237 INFO    SenderThread:447844 [sender.py:send_request_defer():455] handle sender defer: 11
+2024-07-25 01:19:59,334 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-25 01:19:59,335 DEBUG   SenderThread:447844 [sender.py:send_request():316] send_request: poll_exit
+2024-07-25 01:19:59,335 INFO    SenderThread:447844 [file_pusher.py:join():176] waiting for file pusher
+2024-07-25 01:20:00,102 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: sampled_history
+2024-07-25 01:20:00,104 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: get_summary
+2024-07-25 01:20:00,105 INFO    MainThread:447844 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2024-07-25 01:20:00,105 INFO    MainThread:447844 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2024-07-25 01:20:00,105 INFO    MainThread:447844 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2024-07-25 01:20:00,107 DEBUG   HandlerThread:447844 [handler.py:handle_request():141] handle_request: shutdown
+2024-07-25 01:20:00,107 INFO    HandlerThread:447844 [handler.py:finish():810] shutting down handler
+2024-07-25 01:20:00,235 INFO    WriterThread:447844 [datastore.py:close():279] close: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_011722-3f6tjq2a/run-3f6tjq2a.wandb

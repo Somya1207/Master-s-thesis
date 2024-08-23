@@ -1,0 +1,89 @@
+2024-07-25 00:16:55,856 INFO    StreamThr :442340 [internal.py:wandb_internal():90] W&B internal server running at pid: 442340, started at: 2024-07-25 00:16:55.854326
+2024-07-25 00:16:55,865 DEBUG   HandlerThread:442340 [handler.py:handle_request():141] handle_request: status
+2024-07-25 00:16:55,867 DEBUG   SenderThread:442340 [sender.py:send_request():316] send_request: status
+2024-07-25 00:16:55,878 DEBUG   SenderThread:442340 [sender.py:send():302] send: header
+2024-07-25 00:16:55,879 INFO    WriterThread:442340 [datastore.py:open_for_write():75] open: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240725_001655-4ay4uzn6/run-4ay4uzn6.wandb
+2024-07-25 00:16:55,893 DEBUG   SenderThread:442340 [sender.py:send():302] send: run
+2024-07-25 00:16:59,247 ERROR   SenderThread:442340 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x7f05d82a4cd0>: Failed to resolve 'your-shared-local-host.com' ([Errno -2] Name or service not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='your-shared-local-host.com', port=80): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f05d82a4cd0>: Failed to resolve 'your-shared-local-host.com' ([Errno -2] Name or service not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 204, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='your-shared-local-host.com', port=80): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f05d82a4cd0>: Failed to resolve 'your-shared-local-host.com' ([Errno -2] Name or service not known)"))

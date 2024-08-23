@@ -1,0 +1,6 @@
+2024-07-29 12:37:07,677 INFO    StreamThr :1330104 [internal.py:wandb_internal():90] W&B internal server running at pid: 1330104, started at: 2024-07-29 12:37:07.676277
+2024-07-29 12:37:07,686 DEBUG   HandlerThread:1330104 [handler.py:handle_request():141] handle_request: status
+2024-07-29 12:37:07,686 DEBUG   SenderThread:1330104 [sender.py:send_request():316] send_request: status
+2024-07-29 12:37:07,709 DEBUG   SenderThread:1330104 [sender.py:send():302] send: header
+2024-07-29 12:37:07,710 INFO    WriterThread:1330104 [datastore.py:open_for_write():75] open: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240729_123707-2pl3bb4p/run-2pl3bb4p.wandb
+2024-07-29 12:37:07,724 DEBUG   SenderThread:1330104 [sender.py:send():302] send: run

@@ -1,0 +1,3 @@
+
+[FedML-Client @device-id-0] [Thu, 22 Aug 2024 05:10:55] [INFO] [__init__.py:163:init] args.rank = 0, args.worker_num = 10
+[FedML-Client @device-id-0] [Thu, 22 Aug 2024 05:14:08] [INFO] [ml_engine_adapter.py:147:get_torch_device] args = <fedml.arguments.Arguments object at 0x7f752ec07450>, using_gpu = True, device_id = 1, device_type = gpu

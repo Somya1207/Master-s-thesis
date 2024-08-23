@@ -1,0 +1,84 @@
+2024-07-23 08:21:51,273 INFO    StreamThr :215051 [internal.py:wandb_internal():86] W&B internal server running at pid: 215051, started at: 2024-07-23 08:21:51.272761
+2024-07-23 08:21:51,282 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status
+2024-07-23 08:21:51,314 INFO    WriterThread:215051 [datastore.py:open_for_write():87] open: /home/somya/thesis/FEDGMM/sp_decentralized_mnist_lr_example/wandb/run-20240723_082151-a1105rrt/run-a1105rrt.wandb
+2024-07-23 08:21:51,316 DEBUG   SenderThread:215051 [sender.py:send():382] send: header
+2024-07-23 08:21:51,324 DEBUG   SenderThread:215051 [sender.py:send():382] send: run
+2024-07-23 08:21:52,011 ERROR   SenderThread:215051 [internal_api.py:execute():373] 404 response executing GraphQL.
+2024-07-23 08:21:52,011 ERROR   SenderThread:215051 [internal_api.py:execute():374] {"errors":[{"message":"project not found","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-07-23 08:21:52,013 ERROR   SenderThread:215051 [sender.py:send_run():987] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/internal/sender.py", line 985, in send_run
+    self._init_run(run, config_value_dict)
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/internal/sender.py", line 1027, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+                                            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 2216, in upsert_run
+    response = self.gql(
+               ^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+          ^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+                                ^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/util.py", line 965, in check_retry_fn
+    return fallback_retry_fn(e)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/somya/miniconda3/envs/dl/lib/python3.11/site-packages/wandb/util.py", line 907, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-07-23 08:21:57,027 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:02,028 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:07,029 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:12,029 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:17,032 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:22,033 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:27,034 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:32,035 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:37,036 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:42,038 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:47,039 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:52,044 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:22:57,046 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:02,047 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:07,048 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:12,049 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:17,050 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:22,051 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:27,052 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:32,053 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:37,054 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:42,055 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:47,057 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:52,059 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:23:57,060 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:24:02,061 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:24:07,063 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:24:12,064 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report
+2024-07-23 08:24:17,065 DEBUG   HandlerThread:215051 [handler.py:handle_request():146] handle_request: status_report

@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.15.0-116-generic-x86_64-with-glibc2.35",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-08-12T10:31:28.578977",
+    "startedAt": "2024-08-12T10:31:27.197826",
+    "docker": null,
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 4,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [
+        "--cf",
+        "/home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/config/fedml_config.yaml"
+    ],
+    "state": "running",
+    "program": "/home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/main.py",
+    "codePath": "fedgmm/sp_decentralized_mnist_lr_example/main.py",
+    "git": {
+        "remote": "https://github.com/agrawals1/Federated.git",
+        "commit": "8493729795bdbb68d341033103dbf0d21d9a8bbf"
+    },
+    "email": "somyatyagi1207@gmail.com",
+    "root": "/home/somya/thesis",
+    "host": "iiitd",
+    "username": "somya",
+    "executable": "/home/somya/miniconda3/envs/dl/bin/python"
+}

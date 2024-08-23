@@ -1,0 +1,188 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.11.5
+    start_time: 1724310062.452533
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.11.5
+      5: 0.13.2
+      8:
+      - 5
+backend:
+  desc: null
+  value: sp
+batch_size:
+  desc: null
+  value: 200
+burn_in:
+  desc: null
+  value: 100
+client_id_list:
+  desc: null
+  value: '[]'
+client_num_in_total:
+  desc: null
+  value: 10
+client_num_per_round:
+  desc: null
+  value: 10
+client_optimizer:
+  desc: null
+  value: sgd
+comm_round:
+  desc: null
+  value: 5
+config_version:
+  desc: null
+  value: dev
+data_cache_dir:
+  desc: null
+  value: /home/somya/.cache/fedml_data
+dataset:
+  desc: null
+  value: mnist_x
+enable_tracking:
+  desc: null
+  value: false
+enable_wandb:
+  desc: null
+  value: true
+epochs:
+  desc: null
+  value: 2
+epochs_model_selection:
+  desc: null
+  value: 2000
+eval_freq:
+  desc: null
+  value: 20
+federated_optimizer:
+  desc: null
+  value: FedAvg
+frequency_of_the_test:
+  desc: null
+  value: 20
+gpu_id:
+  desc: null
+  value: 1
+learning_rate:
+  desc: null
+  value: 0.0005
+local_rank:
+  desc: null
+  value: 0
+max_no_progress:
+  desc: null
+  value: 20
+mlops_api_key:
+  desc: null
+  value: c9356b9c4ce44363bb66366b210201
+mlops_project_name:
+  desc: null
+  value: simulation_2
+mlops_run_name:
+  desc: null
+  value: fedml_torch_fedavg_mnist_lr_1
+model:
+  desc: null
+  value: lr
+node_rank:
+  desc: null
+  value: 0
+partition_alpha:
+  desc: null
+  value: 0.3
+partition_method:
+  desc: null
+  value: hetero
+print_freq:
+  desc: null
+  value: 10
+print_freq_mul:
+  desc: null
+  value: 5
+psi_eval_burn_in:
+  desc: null
+  value: 50
+psi_eval_max_no_progress:
+  desc: null
+  value: 20
+random_seed:
+  desc: null
+  value: 0
+rank:
+  desc: null
+  value: 0
+role:
+  desc: null
+  value: client
+run_device_id:
+  desc: null
+  value: '0'
+run_id:
+  desc: null
+  value: '0'
+run_name:
+  desc: null
+  value: comm_round-350_epochs_model_selection-2000_scenario_name-step_0.3_mnist
+scenario_name:
+  desc: null
+  value: main
+sys_perf_profiling:
+  desc: null
+  value: true
+training_type:
+  desc: null
+  value: simulation
+using_gpu:
+  desc: null
+  value: true
+using_mlops:
+  desc: null
+  value: false
+verbose:
+  desc: null
+  value: true
+video_plotter:
+  desc: null
+  value: false
+wandb_entity:
+  desc: null
+  value: somya23005
+wandb_key:
+  desc: null
+  value: 3707945e4c94eb3321cc407ff126f7ed4215db82
+wandb_project:
+  desc: null
+  value: fedgmm
+weight_decay:
+  desc: null
+  value: 0.001
+worker_num:
+  desc: null
+  value: 10
+yaml_config_file:
+  desc: null
+  value: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/config/fedml_config.yaml
+yaml_paths:
+  desc: null
+  value:
+  - /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/config/fedml_config.yaml

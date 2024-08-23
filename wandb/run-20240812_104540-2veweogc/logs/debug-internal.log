@@ -1,0 +1,61 @@
+2024-08-12 10:45:40,726 INFO    StreamThr :1780836 [internal.py:wandb_internal():90] W&B internal server running at pid: 1780836, started at: 2024-08-12 10:45:40.725189
+2024-08-12 10:45:40,731 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: status
+2024-08-12 10:45:40,733 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: status
+2024-08-12 10:45:40,737 DEBUG   SenderThread:1780836 [sender.py:send():302] send: header
+2024-08-12 10:45:40,738 INFO    WriterThread:1780836 [datastore.py:open_for_write():75] open: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/run-2veweogc.wandb
+2024-08-12 10:45:40,748 DEBUG   SenderThread:1780836 [sender.py:send():302] send: run
+2024-08-12 10:45:41,628 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: check_version
+2024-08-12 10:45:41,635 INFO    SenderThread:1780836 [dir_watcher.py:__init__():216] watching files in: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files
+2024-08-12 10:45:41,636 INFO    SenderThread:1780836 [sender.py:_start_run_threads():913] run started: 2veweogc with start time 1723459540.723303
+2024-08-12 10:45:41,636 DEBUG   SenderThread:1780836 [sender.py:send():302] send: summary
+2024-08-12 10:45:41,637 INFO    SenderThread:1780836 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-12 10:45:41,638 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: check_version
+2024-08-12 10:45:41,872 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: run_start
+2024-08-12 10:45:41,920 DEBUG   HandlerThread:1780836 [meta.py:__init__():35] meta init
+2024-08-12 10:45:41,920 DEBUG   HandlerThread:1780836 [meta.py:__init__():50] meta init done
+2024-08-12 10:45:41,920 DEBUG   HandlerThread:1780836 [meta.py:probe():216] probe
+2024-08-12 10:45:41,931 DEBUG   HandlerThread:1780836 [meta.py:_setup_git():206] setup git
+2024-08-12 10:45:41,945 DEBUG   HandlerThread:1780836 [meta.py:_setup_git():213] setup git done
+2024-08-12 10:45:41,945 DEBUG   HandlerThread:1780836 [meta.py:_save_pip():54] save pip
+2024-08-12 10:45:41,947 DEBUG   HandlerThread:1780836 [meta.py:_save_pip():68] save pip done
+2024-08-12 10:45:41,947 DEBUG   HandlerThread:1780836 [meta.py:_save_conda():75] save conda
+2024-08-12 10:45:42,642 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/requirements.txt
+2024-08-12 10:45:42,643 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/wandb-summary.json
+2024-08-12 10:45:42,643 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/conda-environment.yaml
+2024-08-12 10:45:47,587 DEBUG   HandlerThread:1780836 [meta.py:_save_conda():85] save conda done
+2024-08-12 10:45:47,587 DEBUG   HandlerThread:1780836 [meta.py:probe():254] probe done
+2024-08-12 10:45:47,640 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/conda-environment.yaml
+2024-08-12 10:45:47,641 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/wandb-metadata.json
+2024-08-12 10:45:47,885 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:45:47,886 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:45:48,375 DEBUG   SenderThread:1780836 [sender.py:send():302] send: telemetry
+2024-08-12 10:45:48,375 DEBUG   SenderThread:1780836 [sender.py:send():302] send: files
+2024-08-12 10:45:48,376 INFO    SenderThread:1780836 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2024-08-12 10:45:48,641 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/output.log
+2024-08-12 10:45:49,432 INFO    Thread-21 :1780836 [upload_job.py:push():138] Uploaded file /tmp/tmp4phdvzx_wandb/wvrgpeo8-wandb-metadata.json
+2024-08-12 10:45:50,642 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/output.log
+2024-08-12 10:46:03,383 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:46:03,384 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:46:11,658 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/config.yaml
+2024-08-12 10:46:11,927 DEBUG   SenderThread:1780836 [sender.py:send():302] send: stats
+2024-08-12 10:46:18,797 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:46:18,798 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:46:34,292 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:46:34,292 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:46:43,890 DEBUG   SenderThread:1780836 [sender.py:send():302] send: stats
+2024-08-12 10:46:49,746 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:46:49,746 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:47:05,193 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:47:05,193 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:47:15,853 DEBUG   SenderThread:1780836 [sender.py:send():302] send: stats
+2024-08-12 10:47:16,693 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/output.log
+2024-08-12 10:47:20,617 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:47:20,617 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:47:36,081 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:47:36,081 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:47:44,713 INFO    Thread-17 :1780836 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240812_104540-2veweogc/files/output.log
+2024-08-12 10:47:48,150 DEBUG   SenderThread:1780836 [sender.py:send():302] send: stats
+2024-08-12 10:47:51,578 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:47:51,578 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status
+2024-08-12 10:48:07,059 DEBUG   HandlerThread:1780836 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-12 10:48:07,060 DEBUG   SenderThread:1780836 [sender.py:send_request():316] send_request: stop_status

@@ -1,0 +1,715 @@
+2024-08-13 04:46:41,278 INFO    StreamThr :1849882 [internal.py:wandb_internal():90] W&B internal server running at pid: 1849882, started at: 2024-08-13 04:46:41.278195
+2024-08-13 04:46:41,286 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: status
+2024-08-13 04:46:41,287 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: status
+2024-08-13 04:46:41,291 DEBUG   SenderThread:1849882 [sender.py:send():302] send: header
+2024-08-13 04:46:41,292 INFO    WriterThread:1849882 [datastore.py:open_for_write():75] open: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/run-28go485q.wandb
+2024-08-13 04:46:41,297 DEBUG   SenderThread:1849882 [sender.py:send():302] send: run
+2024-08-13 04:46:42,279 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: check_version
+2024-08-13 04:46:42,285 INFO    SenderThread:1849882 [dir_watcher.py:__init__():216] watching files in: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files
+2024-08-13 04:46:42,286 INFO    SenderThread:1849882 [sender.py:_start_run_threads():913] run started: 28go485q with start time 1723524401.276936
+2024-08-13 04:46:42,286 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:46:42,287 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:46:42,288 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: check_version
+2024-08-13 04:46:42,636 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: run_start
+2024-08-13 04:46:42,683 DEBUG   HandlerThread:1849882 [meta.py:__init__():35] meta init
+2024-08-13 04:46:42,683 DEBUG   HandlerThread:1849882 [meta.py:__init__():50] meta init done
+2024-08-13 04:46:42,683 DEBUG   HandlerThread:1849882 [meta.py:probe():216] probe
+2024-08-13 04:46:42,695 DEBUG   HandlerThread:1849882 [meta.py:_setup_git():206] setup git
+2024-08-13 04:46:42,709 DEBUG   HandlerThread:1849882 [meta.py:_setup_git():213] setup git done
+2024-08-13 04:46:42,710 DEBUG   HandlerThread:1849882 [meta.py:_save_pip():54] save pip
+2024-08-13 04:46:42,712 DEBUG   HandlerThread:1849882 [meta.py:_save_pip():68] save pip done
+2024-08-13 04:46:42,712 DEBUG   HandlerThread:1849882 [meta.py:_save_conda():75] save conda
+2024-08-13 04:46:43,294 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/conda-environment.yaml
+2024-08-13 04:46:43,294 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/requirements.txt
+2024-08-13 04:46:43,294 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:46:48,265 DEBUG   HandlerThread:1849882 [meta.py:_save_conda():85] save conda done
+2024-08-13 04:46:48,265 DEBUG   HandlerThread:1849882 [meta.py:probe():254] probe done
+2024-08-13 04:46:48,290 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/conda-environment.yaml
+2024-08-13 04:46:48,290 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-metadata.json
+2024-08-13 04:46:48,540 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:46:48,541 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:46:48,942 DEBUG   SenderThread:1849882 [sender.py:send():302] send: telemetry
+2024-08-13 04:46:48,943 DEBUG   SenderThread:1849882 [sender.py:send():302] send: files
+2024-08-13 04:46:48,944 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2024-08-13 04:46:49,290 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_created():275] file/dir created: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:46:50,208 INFO    Thread-21 :1849882 [upload_job.py:push():138] Uploaded file /tmp/tmpi8spq5h0wandb/2pveyf3b-wandb-metadata.json
+2024-08-13 04:46:51,291 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:46:57,295 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:47:03,950 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:47:03,951 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:47:12,304 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/config.yaml
+2024-08-13 04:47:12,667 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:47:19,481 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:47:19,482 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:47:27,315 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:47:35,047 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:47:35,047 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:47:44,477 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:47:49,329 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:47:50,469 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:47:50,470 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:48:05,975 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:48:05,976 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:48:16,321 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:48:21,447 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:48:21,448 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:48:37,009 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:48:37,010 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:48:48,179 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:48:51,367 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:48:52,459 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:48:52,459 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:48:56,089 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:48:56,091 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:48:56,092 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:48:56,093 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:48:56,370 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:48:58,491 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:48:58,492 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:48:58,492 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:48:58,498 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:48:59,372 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:00,887 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:00,888 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:00,889 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:00,890 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:01,373 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:03,290 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:03,292 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:03,292 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:03,293 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:03,374 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:05,697 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:05,698 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:05,698 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:05,699 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:06,376 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:07,944 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:49:07,944 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:49:08,103 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:08,373 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:08,374 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:08,375 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:08,377 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:10,508 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:10,509 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:10,510 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:10,516 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:11,379 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:12,914 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:12,915 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:12,916 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:12,917 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:13,380 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:15,320 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:15,321 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:15,321 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:15,322 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:15,381 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:17,725 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:17,726 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:17,727 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:17,727 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:18,383 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:20,014 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:49:20,118 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:20,119 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:20,120 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:20,121 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:20,384 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:22,500 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:22,501 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:22,501 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:22,507 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:23,377 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:49:23,377 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:49:23,386 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:24,881 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:24,882 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:24,883 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:24,884 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:25,387 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:27,263 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:27,264 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:27,264 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:27,265 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:27,388 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:29,643 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:29,644 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:29,645 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:29,646 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:30,390 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:32,024 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:32,025 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:32,025 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:32,026 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:32,391 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:34,405 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:34,406 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:34,406 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:34,412 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:35,393 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:36,785 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:36,786 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:36,787 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:36,787 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:37,395 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:38,874 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:49:38,874 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:49:39,166 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:39,366 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:39,367 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:39,369 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:39,396 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:41,546 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:41,547 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:41,547 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:41,548 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:42,397 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:43,933 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:43,934 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:43,934 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:43,935 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:44,398 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:46,322 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:46,323 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:46,323 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:46,329 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:46,400 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:48,711 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:48,712 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:48,713 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:48,713 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:49,401 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:51,101 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:51,102 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:51,102 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:51,103 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:51,402 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:51,866 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:49:53,490 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:53,491 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:53,491 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:53,492 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:54,370 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:49:54,371 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:49:54,404 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:55,880 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:55,881 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:55,881 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:55,882 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:56,405 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:49:58,269 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:49:58,270 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:49:58,271 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:49:58,276 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:49:58,406 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:00,659 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:00,660 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:00,660 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:00,661 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:01,408 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:03,048 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:03,049 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:03,050 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:03,051 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:03,410 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:05,437 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:05,438 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:05,438 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:05,439 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:06,411 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:07,826 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:07,827 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:07,828 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:07,829 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:08,412 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:09,831 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:50:09,832 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:50:10,216 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:10,245 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:10,246 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:10,252 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:10,414 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:12,605 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:12,606 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:12,607 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:12,607 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:13,416 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:15,011 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:15,012 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:15,013 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:15,014 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:15,417 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:17,418 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:17,419 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:17,419 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:17,421 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:17,421 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:19,825 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:19,826 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:19,826 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:19,827 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:20,423 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:22,231 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:22,232 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:22,232 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:22,238 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:22,424 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:23,738 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:50:24,637 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:24,638 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:24,638 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:24,639 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:25,254 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:50:25,254 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:50:25,426 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:27,043 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:27,044 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:27,045 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:27,046 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:27,427 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:29,450 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:29,451 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:29,452 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:29,453 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:30,429 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:31,856 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:31,857 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:31,857 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:31,858 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:32,430 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:34,263 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:34,264 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:34,264 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:34,270 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:34,431 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:36,668 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:36,669 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:36,670 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:36,670 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:37,433 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:39,074 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:39,075 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:39,076 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:39,077 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:39,434 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:40,757 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:50:40,757 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:50:41,480 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:41,481 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:41,482 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:41,483 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:42,436 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:43,886 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:43,887 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:43,887 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:43,888 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:44,437 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:46,291 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:46,292 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:46,293 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:46,299 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:46,438 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:48,697 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:48,698 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:48,699 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:48,700 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:49,441 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:51,104 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:51,106 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:51,106 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:51,107 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:51,441 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:53,509 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:53,510 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:53,511 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:53,511 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:54,443 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:55,587 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:50:55,915 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:55,916 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:55,917 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:55,918 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:56,198 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:50:56,199 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:50:56,444 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:50:58,321 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:50:58,323 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:50:58,324 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:50:58,330 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:50:58,446 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:00,728 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:00,729 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:00,729 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:00,730 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:01,447 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:03,134 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:03,135 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:03,135 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:03,136 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:03,448 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:05,540 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:05,541 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:05,541 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:05,542 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:06,450 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:07,959 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:07,960 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:07,961 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:07,961 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:08,451 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:10,382 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:10,383 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:10,384 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:10,390 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:10,452 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:11,651 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:51:11,652 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:51:12,804 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:12,805 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:12,806 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:12,807 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:13,454 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:15,228 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:15,229 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:15,229 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:15,230 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:15,455 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:17,650 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:17,651 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:17,651 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:17,652 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:18,457 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:27,147 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:51:27,148 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:51:27,557 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:51:33,514 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,515 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,516 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,516 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,556 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,557 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,557 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,557 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,558 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,558 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,558 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,559 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,560 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,561 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,561 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,561 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,569 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,569 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,569 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,570 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,579 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,580 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,580 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,580 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,593 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,593 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,594 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,594 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,606 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,606 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,607 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,607 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,614 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,614 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,615 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,615 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,622 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,622 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,623 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,623 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,630 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,630 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,631 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,631 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,638 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,638 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,639 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,639 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,646 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,646 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,647 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,647 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,654 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,654 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,655 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,655 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,662 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,663 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,663 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,663 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,670 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,671 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,671 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,672 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,678 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,679 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,679 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,679 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,686 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,687 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,687 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,687 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,694 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,695 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,695 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,695 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,702 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,703 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,703 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,703 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,710 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,711 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,711 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,712 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,718 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,719 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,719 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,719 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,727 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,727 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,727 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,728 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,735 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,735 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,735 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,736 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,743 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,743 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,743 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,744 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,751 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,751 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,751 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,752 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,759 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,759 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,760 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,760 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,767 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,767 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,768 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,768 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,775 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,775 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,776 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,776 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,783 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,783 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,784 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,784 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,791 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,792 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,792 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,792 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,800 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,801 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,801 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,801 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,808 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,809 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,809 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,809 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,816 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,817 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,817 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,817 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,824 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,825 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,825 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,825 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,832 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,833 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,833 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,833 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,840 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,841 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,841 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,842 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,848 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,849 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,849 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,849 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,856 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,857 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,857 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,858 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,864 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,865 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,865 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,866 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,872 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,873 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,873 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,874 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,880 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,881 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,881 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,882 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,889 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,890 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,890 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,890 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,897 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,898 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,898 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,898 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,905 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,906 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,906 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,906 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,913 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,914 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,914 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,915 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,921 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,922 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,922 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,923 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,929 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,930 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,930 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,931 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,937 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,938 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,938 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,939 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,945 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,946 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,946 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,947 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,953 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,954 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,954 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,955 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,961 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,962 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,962 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,963 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,969 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,970 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,970 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,971 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,978 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,978 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,979 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,979 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,986 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,987 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,987 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,987 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:33,994 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:33,995 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:33,995 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:33,995 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:34,002 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:34,003 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:34,003 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:34,004 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:34,010 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:34,011 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:34,011 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:34,012 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:34,018 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:34,019 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:34,019 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:34,020 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:34,026 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: partial_history
+2024-08-13 04:51:34,027 DEBUG   SenderThread:1849882 [sender.py:send():302] send: history
+2024-08-13 04:51:34,027 DEBUG   SenderThread:1849882 [sender.py:send():302] send: summary
+2024-08-13 04:51:34,029 INFO    SenderThread:1849882 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-08-13 04:51:34,466 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/wandb-summary.json
+2024-08-13 04:51:35,467 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:51:42,565 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:51:42,565 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:51:58,057 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:51:58,057 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:51:59,298 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:52:03,484 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:52:05,486 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:52:13,568 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:52:13,569 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:52:19,494 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:52:29,171 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:52:29,172 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:52:31,201 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:52:43,509 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:52:44,644 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:52:44,644 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:52:53,515 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:52:55,516 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:53:00,101 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:53:00,102 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:53:03,042 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:53:15,571 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:53:15,572 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:53:31,000 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:53:31,001 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:53:34,744 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:53:46,440 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:53:46,441 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:54:01,921 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:54:01,921 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:54:06,659 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:54:17,343 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:54:17,343 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:54:23,572 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:54:32,801 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:54:32,802 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:54:38,538 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:54:47,586 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:54:48,275 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:54:48,276 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:55:03,762 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:55:03,763 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:55:10,412 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:55:19,207 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:55:19,207 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:55:34,676 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:55:34,676 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:55:42,340 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:55:50,196 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:55:50,197 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:56:05,696 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:56:05,696 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:56:14,197 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:56:21,189 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:56:21,190 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:56:36,666 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:56:36,666 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:56:46,035 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:56:52,218 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:56:52,218 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:57:07,645 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:57:07,646 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:57:17,886 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:57:23,091 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:57:23,091 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:57:38,664 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:57:38,664 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:57:49,754 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:57:54,138 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:57:54,138 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:58:09,616 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:58:09,616 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:58:21,617 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:58:25,214 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:58:25,214 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:58:40,679 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:58:40,679 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:58:49,731 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:58:53,492 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:58:56,192 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:58:56,193 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:59:09,743 INFO    Thread-17 :1849882 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/somya/thesis/fedgmm/sp_decentralized_mnist_lr_example/wandb/run-20240813_044641-28go485q/files/output.log
+2024-08-13 04:59:11,722 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:59:11,722 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status
+2024-08-13 04:59:25,326 DEBUG   SenderThread:1849882 [sender.py:send():302] send: stats
+2024-08-13 04:59:27,212 DEBUG   HandlerThread:1849882 [handler.py:handle_request():141] handle_request: stop_status
+2024-08-13 04:59:27,212 DEBUG   SenderThread:1849882 [sender.py:send_request():316] send_request: stop_status

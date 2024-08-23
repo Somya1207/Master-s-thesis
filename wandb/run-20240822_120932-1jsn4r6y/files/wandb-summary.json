@@ -1,0 +1,1 @@
+{"model_selection_step": 59, "_timestamp": 1724332077.8185987, "_runtime": 3504.9853036403656, "_step": 120, "psi": -0.008052263081066088, "max_eval": -0.0024186899164322546, "selection_iteration": 50, "round": 180, "MSE": 0.5023387141003071, "Train-Loss": 0.17252807826436836, "Test-Loss": 0.04390674153125201, "Objective": -0.006253173441600625, "_wandb": {"runtime": 3813}}
